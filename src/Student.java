@@ -1,5 +1,5 @@
 import java.util.Date;
-import java.util.*;
+
 /**
  * Class that stores information about the concrete student
  *
@@ -13,18 +13,14 @@ public class Student implements Comparable {
 	/**
 	 * student id
 	 */
-	 Scanner s=new Scanner(system.in)
 	private int id;
-system.out.println("student id");
-id=s.nextint();
 
 	/**
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
 	private String fullName;
-system.out.println("student name:");
-full name=s.next line();
+
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
 	 */
